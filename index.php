@@ -9,7 +9,7 @@ body{
 
 }
 .bilde{
-    top: 45%;
+    
     margin-top: 45%;
 }
 
