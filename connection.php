@@ -13,8 +13,7 @@ function db_connect() {
 
     if(!isset($connection)) { 
         $connection = mysqli_init();
-    mysqli_ssl_set($connection,NULL,NULL, "root@3eeacf9665f5:/home/assets/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
-                mysqli_real_connect($connection, $host, $username, $password, $dbname, 3306, MYSQLI_CLIENT_SSL);
+             mysqli_real_connect($connection, $host, $username, $password, $dbname, 3306);
     }
     if($connection === false) {
         return mysqli_connect_error(); 
