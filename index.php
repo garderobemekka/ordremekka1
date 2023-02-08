@@ -10,7 +10,7 @@ body{
 }
 .bilde{
     
-    margin-top: 45%;
+    margin-top: 15%;
 }
 
 </style>
